@@ -1,0 +1,152 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* ===== GENERAL ===== */
+* , body {
+	box-sizing: border-box;
+    sign-sizing: border-sign;
+    font-size: 1em;
+    font-family: -apple-system, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 400;
+	
+}
+
+strong {
+	font-weight: bold;
+}
+
+#sign1 {
+	padding-top: 45px;
+}
+
+#stars {
+  width: 100px;
+}
+
+
+#header {
+	background-color: #222;
+	color: #eee;
+	min-height: 65vh;
+	padding-bottom: 0px;
+	padding-top: 70px;
+
+}
+
+#contribution {
+	background-color: #222;
+	color: rgb(109, 106, 106);
+	font-size: 0.75em;
+	line-height: 2em;
+	font-style: italic;
+	padding-top: 0px;
+	text-align: right; 
+	font-weight: lighter;
+}
+
+
+.block {
+	width: 100%;
+	min-height: 62vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color: #333;
+	background-color: #fff;
+	padding: 30px;
+	padding-bottom: 100px;
+	flex-direction: column;
+}
+
+.block:nth-child(2n) {
+	/*background-color: #ccc;*/
+}
+
+.block img {
+	width: 60px;
+	padding-bottom: 30px;
+	opacity: 0.8;
+}
+
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 1.8em;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 0.9em;
+	font-style: italic;
+	padding-bottom: 30px;
+}
+
+p {
+	font-size: 1.1em;
+	line-height: 2em;
+	width: 100%;
+	text-align: left;
+}
+
+.advice {
+	padding-top: 20px;
+	font-size: 0.8em;
+}
+
+.about {
+	padding-top: 20px;
+}
+
+.instructions {
+	font-size: 0.9em;
+	line-height: 1.5em;
+	padding-top: 40px;
+	padding-bottom: 15px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.list {
+	padding-top: 3px;
+	font-size: 0.85em;
+	line-height: 2.5em;
+	font-style: italic;
+	font-weight: bold;
+	border-width: max;
+	text-align: center;
+}
+
+
+#footer {
+	min-height: 20vh;
+	width: 100%;
+	background-color: #eee;
+}
+
+.banner {
+	height: 90px;
+	width: 94%;
+	left: 3%;
+	position: fixed;
+	border-radius: 16px;
+	border: 1px solid #cecece;
+	background-color: white;
+	box-shadow: 0px 0px 12px rgba(0,0,0,0.2);
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.peek {
+	top: 32px;
+}
+.peek p {
+	font-weight: bold;
+	text-align: center;
+	width:100%;
+	font-size: 1.8em;
+}
