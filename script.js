@@ -38,7 +38,7 @@ function scrollStuff() {
 			    var pos = this.getBoundingClientRect().top+this.getBoundingClientRect().height/2;
 			    if( pos > heightOfWindow/8 && pos < heightOfWindow ){
 			        currentBox = i+1;
-			        currentText = $(this).find($("h3")).text();
+			        currentText = $(this).find($("h4")).text();
 			        return false;
 			    }
 			});
