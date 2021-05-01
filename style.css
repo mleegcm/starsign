@@ -85,6 +85,10 @@ h2 {
 	padding-bottom: 30px;
 }
 
+h4 {
+        display: none;
+}
+
 p {
 	font-size: 1.1em;
 	line-height: 2em;
